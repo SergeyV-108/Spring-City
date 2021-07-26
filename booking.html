@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Инструкция для IE старой версии -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- Подключение стилей слайдера -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<title>Spring City</title>
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<!-- header -->
+
+		<header class="header">
+			<div class="container">
+				<div class="header__inner inner-header">
+					<div class="inner-header__logo logo-header">
+						<a href="index.html" class="logo-header__link"><img src="image/header/logo.svg" alt=""></a>
+					</div>
+					<div class="inner-header__body body-header">
+						<div class="body-header__top top-header">
+							<div class="top-header__text">Call us today:</div>
+							<div class="top-header__call">
+								<a href="tel:2899800557"><i class='fas fa-phone-alt'></i>289-980-0557</a>
+							</div>
+						</div>
+						<div class="bottom-header__burger burger">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<div class="body-header__bottom bottom-header">
+							<nav class="bottom-header__menu">
+								<ul class="bottom-header__list">
+									<li><a href="why_us.html" class="bottom-header__link">Why us</a></li>
+									<li><a href="resedential.html" class="bottom-header__link">RESIDENTIAL</a></li>
+									<li><a href="commercial.html" class="bottom-header__link">COMMERCIAL</a></li>
+									<li><a href="area.html" class="bottom-header__link">SERVICE AREA</a></li>
+									<li><a href="contact.html" class="bottom-header__link">CONTACT</a></li>
+									<li><a href="blog.html" class="bottom-header__link">blog</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- page -->
+
+		<main class="page">
+
+
+			<!-- booking -->
+
+			<section class="page__booking booking-page">
+				<div class="container">
+					<div class="booking-page__inner inner-booking">
+						<div class="inner-booking__tabs tabs-booking">
+							<div class="tabs-booking__header header-tabs" id="h_tab_1">
+								<h1 class=" header-tabs__title main-title">Get an estimate<br> and
+									<span>schedule a service</span>
+								</h1>
+							</div>
+							<div class="tabs-booking__header header-tabs" id="h_tab_2">
+								<h1 class=" header-tabs__title main-title">Choose your <span>services</span></h1>
+								<div class=" header-tabs__text">Depending on your shack size and choice of services, we
+									may
+									need to assess the job in person before we can provide an estimate.</div>
+							</div>
+							<div class="tabs-booking__header header-tabs" id="h_tab_3">
+								<h1 class=" header-tabs__title main-title">service <span>appointment</span></h1>
+							</div>
+							<div class="tabs-booking__header header-tabs" id="h_tab_4">
+								<h1 class=" header-tabs__title main-title">Your <span>contact details</span></h1>
+							</div>
+							<div class="tabs-booking__header header-tabs" id="h_tab_5">
+								<h1 class=" header-tabs__title main-title">Review and confirm <span>booking</span></h1>
+							</div>
+							<div class="tabs-booking__header header-tabs" id="h_tab_6">
+								<h1 class=" header-tabs__title main-title">thanks for your <span>order!</span></h1>
+								<div class=" header-tabs__text">Our team will reach out to you within 24 hours</div>
+							</div>
+							<ul class="tabs-booking__nav nav-tabs">
+								<li class="nav-tabs__chapter" data-tab="#tab_1" data-header-tab="#h_tab_1">01</li>
+								<li class="nav-tabs__chapter" data-tab="#tab_2" data-header-tab="#h_tab_2">02</li>
+								<li class="nav-tabs__chapter" data-tab="#tab_3" data-header-tab="#h_tab_3">03</li>
+								<li class="nav-tabs__chapter" data-tab="#tab_4" data-header-tab="#h_tab_4">04</li>
+								<li class="nav-tabs__chapter" data-tab="#tab_5" data-header-tab="#h_tab_5">05</li>
+							</ul>
+							<div class="tabs-booking__content content-tabs">
+								<form class="content-tabs__item content-tabs__item_1 item-1" id="tab_1">
+									<div class="item-1__title">Postal Code <span>*</span></div>
+									<div class="item-1__code"><input type="text" placeholder="Enter your postal code">
+									</div>
+									<div class="item-1__title">house size <span>*</span></div>
+									<div class="item-1__list">
+										<div class="item-1__radio"><input type="radio" value="rad_1" name="nameradio"><i
+												class='fas fa-check'></i><span><b>Massive
+													Shack</b><br>More than 3500 sq ft</span></div>
+										<div class="item-1__radio"><input type="radio" value="rad_2" name="nameradio"><i
+												class='fas fa-check'></i><span><b>Large
+													Shack</b><br>2801 - 3500 sq ft</span></div>
+										<div class="item-1__radio"><input type="radio" value="rad_3" name="nameradio"><i
+												class='fas fa-check'></i><span><b>Medium
+													Shack</b><br>1801 - 2800 sq ft</span></div>
+										<div class="item-1__radio active"><input type="radio" value="rad_4"
+												name="nameradio" checked><i
+												class='fas fa-check checked'></i><span><b>Small Shack</b><br>0 -
+												1800 sq
+												ft</span></div>
+									</div>
+									<div class="item-tabs__btns">
+										<button class="item-tabs__btn item-tabs__btn_next" type="button">next</button>
+									</div>
+								</form>
+								<form class="content-tabs__item content-tabs__item_2 item-2" id="tab_2">
+									<div class="item-2__title">Window and Glass Cleaning <span>*</span></div>
+									<div class="item-2__list">
+										<div class="item-2__checkbox">
+											<input type="checkbox" name="namecheckbox_1"><i
+												class='fas fa-check'></i><span>Exterior Window Washing</span>
+										</div>
+										<div class="item-2__checkbox">
+											<input type="checkbox" name="namecheckbox_2"><i
+												class='fas fa-check'></i><span>Interior Window Washing</span>
+										</div>
+										<div class="item-2__checkbox">
+											<input type="checkbox" name="namecheckbox_3"><i
+												class='fas fa-check'></i><span>Storm Windows</span>
+										</div>
+									</div>
+									<div class="item-2__sublist sublist-item-2">
+										<div class="sublist-item-2__row">
+											<p>Number of Exterior Skylights</p>
+											<div class="sublist-item-2__quantity quantity">
+												<div class="quantity__input">
+													<input autocomplete="off" value="1" type="text" name="form[]">
+												</div>
+												<div class="quantity__buttons">
+													<div data-counter class="quantity__button quantity__button_plus"><i
+															class='fas fa-chevron-up'></i></div>
+													<div data-counter class="quantity__button quantity__button_minus"><i
+															class='fas fa-chevron-down'></i></div>
+												</div>
+											</div>
+										</div>
+										<div class="sublist-item-2__row">
+											<p>Number of Interior Skylights</p>
+											<div class="sublist-item-2__quantity quantity">
+												<div class="quantity__input">
+													<input autocomplete="off" value="1" type="text" name="form[]">
+												</div>
+												<div class="quantity__buttons">
+													<div data-counter class="quantity__button quantity__button_plus"><i
+															class='fas fa-chevron-up'></i></div>
+													<div data-counter class="quantity__button quantity__button_minus"><i
+															class='fas fa-chevron-down'></i></div>
+												</div>
+											</div>
+										</div>
+										<div class="sublist-item-2__row">
+											<p>Number of Glass Railing Panels</p>
+											<div class="sublist-item-2__quantity quantity">
+												<div class="quantity__input">
+													<input autocomplete="off" value="1" type="text" name="form[]">
+												</div>
+												<div class="quantity__buttons">
+													<div data-counter class="quantity__button quantity__button_plus"><i
+															class='fas fa-chevron-up'></i></div>
+													<div data-counter class="quantity__button quantity__button_minus"><i
+															class='fas fa-chevron-down'></i></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="item-2__text">* Our water purification technology ensures that windows
+										are spot free and streak free.</div>
+									<div class="item-tabs__btns">
+										<button class="item-tabs__btn item-tabs__btn_back" type="button">back</button>
+										<button class="item-tabs__btn item-tabs__btn_next" type="button">next</button>
+									</div>
+								</form>
+								<div class="content-tabs__item content-tabs__item_3 item-3" id="tab_3">
+									<div class="item-3__title">Your Price: <span>$221.00</span></div>
+									<div class="item-3__text">There’s no need to pay today - payment will be collected
+										after the job is complete.</div>
+									<div class="item-3__title">Book your service appointment</div>
+									<div class="item-3__content content-item-3">
+										<div class="content-item-3__calendar">
+											<table id="calendar">
+												<thead>
+													<tr>
+														<td><b class='fas fa-chevron-left'></b></td>
+														<td colspan="5"></td>
+														<td><b class='fas fa-chevron-right'></b></td>
+													</tr>
+													<tr class="dn">
+														<td>Su</td>
+														<td>Mo</td>
+														<td>Tu</td>
+														<td>We</td>
+														<td>Th</td>
+														<td>Fr</td>
+														<td>Sa</td>
+													</tr>
+												</thead>
+												<tbody></tbody>
+											</table>
+										</div>
+										<div class="content-item-3__date date-item-3">
+											<div class="date-item-3__days">
+												<div>
+													<table>
+														<colgroup>
+															<col>
+															<col>
+															<col>
+														</colgroup>
+														<tr>
+															<th>Tue, Apr 6</th>
+															<th>Wed, Apr 7</th>
+															<th>Thu, Apr 8</th>
+														</tr>
+														<tr>
+															<td><b>Morning</b><br>0 Available</td>
+															<td><b>Morning</b><br>1 Available<br><span>9 a.m</span></td>
+															<td><b>Morning</b><br>0 Available</td>
+														</tr>
+														<tr>
+															<td><b>Afternoon</b><br>1 Available<br><span>10 a.m</span>
+															</td>
+															<td><b>Afternoon</b><br>0 Available</td>
+															<td><b>Afternoon</b><br>0 Available</td>
+														</tr>
+													</table>
+												</div>
+											</div>
+											<div class="date-item-3__question">Can’t find a date and time that works for
+												you?</div>
+											<div class="date-item-3__call">Call us and we’ll help you out.</div>
+											<div class="date-item-3__phone">
+												<a href="tel:2899800557"><i
+														class='fas fa-phone-alt'></i>289-980-0557</a>
+											</div>
+										</div>
+									</div>
+									<div class="item-tabs__btns">
+										<button class="item-tabs__btn item-tabs__btn_back" type="button">back</button>
+										<button class="item-tabs__btn item-tabs__btn_next" type="button">next</button>
+									</div>
+								</div>
+								<div class="content-tabs__item content-tabs__item_4 item-4" id="tab_4">
+									<form>
+										<div class="item-4__chapter chapter-item-4">
+											<div class="chapter-item-4__title">First Name <span>*</span></div>
+											<div class="chapter-item-4__data"><input type="text"
+													placeholder="Enter your first name">
+											</div>
+										</div>
+										<div class="item-4__chapter chapter-item-4">
+											<div class="chapter-item-4__title">Last Name <span>*</span></div>
+											<div class="chapter-item-4__data"><input type="text"
+													placeholder="Enter your last name">
+											</div>
+										</div>
+										<div class="item-4__chapter chapter-item-4">
+											<div class="chapter-item-4__title">Phone <span>*</span></div>
+											<div class="chapter-item-4__data"><input type="text"
+													placeholder="888-888-8888">
+											</div>
+										</div>
+										<div class="item-4__chapter chapter-item-4">
+											<div class="chapter-item-4__title">email <span>*</span></div>
+											<div class="chapter-item-4__data"><input type="text"
+													placeholder="Enter your email">
+											</div>
+										</div>
+										<div class="item-4__chapter chapter-item-4">
+											<div class="chapter-item-4__title">State <span>*</span></div>
+											<div class="chapter-item-4__data">
+												<select>
+													<option>Choose your state</option>
+													<option value="state 1">state 1</option>
+													<option value="state 2">state 2</option>
+													<option value="state 3">state 3</option>
+													<option value="state 4">state 4</option>
+													<option value="state 5">state 5</option>
+												</select>
+												<span class='fas fa-chevron-down'></span>
+											</div>
+										</div>
+										<div class="item-4__chapter chapter-item-4">
+											<div class="chapter-item-4__title">City <span>*</span></div>
+											<div class="chapter-item-4__data"><input type="text"
+													placeholder="Enter your City">
+											</div>
+										</div>
+										<div class="item-4__chapter chapter-item-4">
+											<div class="chapter-item-4__title">service address <span>*</span></div>
+											<div class="chapter-item-4__data"><input type="text"
+													placeholder="Enter your address">
+											</div>
+										</div>
+									</form>
+									<div class="item-4__text">Your selected zip/postal code is T1X0L3 <a
+											href="#">Change</a>
+									</div>
+									<div class="item-tabs__btns">
+										<button class="item-tabs__btn item-tabs__btn_back" type="button">back</button>
+										<button class="item-tabs__btn item-tabs__btn_next" type="button">next</button>
+									</div>
+								</div>
+								<form class="content-tabs__item content-tabs__item_5 item-5" id="tab_5">
+									<div class="item-5__tables">
+										<table class="item-5__table table-item-5">
+											<thead>
+												<tr>
+													<th colspan="2">Your Services</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td class="table-item-5__text table-item-5__text_left">Interior
+														Window Washing</td>
+													<td class="table-item-5__text table-item-5__text_right">1 x $224
+													</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<th class="table-item-5__text table-item-5__text_left">Total</th>
+													<th class="table-item-5__text table-item-5__text_right">
+														<span>$224</span>
+													</th>
+												</tr>
+											</tfoot>
+										</table>
+										<table class="item-5__table table-item-5">
+											<thead>
+												<tr>
+													<th>Scheduled For</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td class="table-item-5__text table-item-5__text_left">December 31,
+														2021 at 4:00 pm</td>
+													<td class="table-item-5__text table-item-5__text_right"><a
+															href="#">Change</a></td>
+												</tr>
+											</tbody>
+										</table>
+										<table class="item-5__table table-item-5">
+											<thead>
+												<tr>
+													<th>Your Details</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td class="table-item-5__text table-item-5__text_left">Name: Mrs.
+														Collins</td>
+													<td class="table-item-5__text table-item-5__text_right"><a
+															href="#">Change</a></td>
+												</tr>
+												<tr>
+													<td class="table-item-5__text table-item-5__text_left">Phone:
+														0998977654</td>
+												</tr>
+												<tr>
+													<td class="table-item-5__text table-item-5__text_left">Email:
+														collins@mail.com</td>
+												</tr>
+											</tbody>
+										</table>
+										<table class="item-5__table table-item-5">
+											<thead>
+												<tr>
+													<th>Service Address</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td class="table-item-5__text table-item-5__text_left">30 11 Street
+														Northeast</td>
+													<td class="table-item-5__text table-item-5__text_right"><a
+															href="#">Change</a></td>
+												</tr>
+												<tr>
+													<td class="table-item-5__text table-item-5__text_left">Calgary,
+														Alberta, T1X0L3</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+									<div class="item-tabs__btns">
+										<button class="item-tabs__btn item-tabs__btn_back" type="button">back</button>
+										<button class="item-tabs__btn item-tabs__btn_confirm" type="submit">Confirm
+											booking</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</main>
+
+		<!-- footer -->
+
+		<footer class="footer">
+			<div class="footer__top top-footer">
+				<div class="container">
+					<div class="top-footer__inner inner-top-footer">
+						<div class="inner-top-footer__logo">
+							<a href="index.html" class="logo-header__link"><img src="image/header/logo.svg" alt=""></a>
+						</div>
+						<nav class="inner-top-footer__menu">
+							<ul class="inner-top-footer__list">
+								<li><a href="resedential.html" class="inner-top-footer__link">RESIDENTIAL</a></li>
+								<li><a href="commercial.html" class="inner-top-footer__link">COMMERCIAL</a></li>
+								<li><a href="why_us.html" class="inner-top-footer__link">Why us</a></li>
+								<li><a href="area.html" class="inner-top-footer__link">SERVICE AREA</a></li>
+							</ul>
+						</nav>
+						<div class="inner-top-footer__book book-footer">
+							<div class="book-footer__title">book today</div>
+							<div class="book-footer__call">
+								<a href="tel:2899800557"><i class='fas fa-phone-alt'></i>289-980-0557</a>
+							</div>
+						</div>
+						<div class="inner-top-footer__social social-footer">
+							<div class="social-footer__title">join us</div>
+							<ul class="social-footer__icons">
+								<li><a href="#" class="social-footer__link social-footer__link_facebook"><i
+											class='fab fa-facebook-f'></i></a></li>
+								<li><a href="#" class="social-footer__link social-footer__link_instagram"><i
+											class='fab fa-instagram'></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom bottom-footer">
+				<div class="container">
+					<p class="bottom-footer__inner">©2020 Spring City Window Cleaning. All rights reserved. </p>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+	<!-- Подключение иконок -->
+	<script src="https://kit.fontawesome.com/9e73be8edf.js" crossorigin="anonymous"></script>
+
+	<!-- Подключение слайдера -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+	<script src="js/slider-services.js"></script>
+	<script src="js/slider-reviews.js"></script>
+
+	<script src="js/app.js"></script>
+</body>
+
+</html>
