@@ -41,12 +41,12 @@ for (let itemQuestionsHeader of itemsQuestionsHeader) {
 
 		this.classList.toggle('active');
 		this.nextElementSibling.classList.toggle('active');
-		this.querySelector('.fa-chevron-down').classList.toggle('active');
+		this.querySelector('.header-item__chevron').classList.toggle('active');
 		
 		for (let itemQuestionsHeaderActive of itemsQuestionsHeaderActive) {
 			itemQuestionsHeaderActive.classList.remove('active');
 			itemQuestionsHeaderActive.nextElementSibling.classList.remove('active');
-			itemQuestionsHeaderActive.querySelector('.fa-chevron-down').classList.remove('active');
+			itemQuestionsHeaderActive.querySelector('.header-item__chevron').classList.remove('active');
 		}
 	}
 };
