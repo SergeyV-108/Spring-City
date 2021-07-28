@@ -2025,11 +2025,11 @@ body {
   color: #3162a6;
 }
 
-@media (max-width: 440px) {
+@media (max-width: 560px) {
   .header-item__title {
     margin-right: 9.09vw;
-    font-size: 4.55vw;
-    line-height: 5.91vw;
+    font-size: 3.57vw;
+    line-height: 4.64vw;
   }
 }
 
