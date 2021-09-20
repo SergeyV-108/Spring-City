@@ -3240,11 +3240,8 @@ body {
   }
 }
 
-.inner-reviews__pagination {
+.inner-reviews__pagination.swiper-pagination-bullets {
   bottom: -40px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
 }
 
 .inner-reviews__pagination .swiper-pagination-bullet {
