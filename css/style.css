@@ -2720,6 +2720,7 @@ body {
 }
 
 .item-blogs__link:hover {
+  color: #3162a6;
   background: rgba(255, 255, 255, 0.85);
 }
 
